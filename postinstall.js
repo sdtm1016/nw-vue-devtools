@@ -74,7 +74,8 @@ let postInstall = {
 
     let executable = 'git clone --quiet';
     let url = 'https://github.com/vuejs/vue-devtools.git';
-    let branch = '-b master';
+    // 注意现在没有master,用main来代替
+    let branch = '-b main';
 
     let clonedLocation;
     if (process.platform === 'win32') {
