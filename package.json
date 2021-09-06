@@ -1,6 +1,6 @@
 {
   "name": "md-nw-vue-devtools",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "A devDependency to add Vue-DevTools into NW.js",
   "main": "index.html",
   "scripts": {
@@ -26,20 +26,13 @@
     "desktop"
   ],
   "author": "TheJaredWilcurt@users.noreply.github.com",
-  "contributors": [
-    {
-      "name": "Marius Guščius",
-      "email": "masterj2@gmail.com",
-      "url": "https://github.com/masterjg"
-    }
-  ],
   "license": "MIT",
-  "homepage": "https://github.com/TheJaredWilcurt/nw-vue-devtools#readme",
+  "homepage": "https://github.com/sdtm1016/nw-vue-devtools#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/TheJaredWilcurt/nw-vue-devtools.git"
+    "url": "git+https://github.com/sdtm1016/nw-vue-devtools.git"
   },
   "bugs": {
-    "url": "https://github.com/TheJaredWilcurt/nw-vue-devtools/issues"
+    "url": "https://github.com/sdtm1016/nw-vue-devtools/issues"
   }
 }
