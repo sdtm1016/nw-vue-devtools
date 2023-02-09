@@ -95,6 +95,8 @@ let postInstall = {
       clonedLocation
     ].join(' ').trim();
 
+    console.log('git execute args:', args);
+
     try {
       // httpsRunner
       exec(args);
