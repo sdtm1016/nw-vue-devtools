@@ -74,10 +74,12 @@ let postInstall = {
     console.log('Vue-DevTools: Downloading v4.1.5 Vue-DevTools source code');
 
     let executable = 'git clone --quiet';
-    let url = 'https://github.com/vuejs/devtools';
+    let url = process.env.DEVTOOLS_MIRROR ||
+      process.env.npm_config_devtools_mirror ||
+      'https://github.com/vuejs/devtools';
     // 注意现在没有master,用main来代替
     // let branch = '-b main';
-    let branch = '-b v4.1.5 --depth=1';
+    let branch = '-b v5.3.4 --depth=1';
 
     let clonedLocation;
     if (process.platform === 'win32') {
