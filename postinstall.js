@@ -79,7 +79,7 @@ let postInstall = {
       'https://github.com/vuejs/devtools';
     // 注意现在没有master,用main来代替
     // let branch = '-b main';
-    let branch = '-b v5.3.4 --depth=1';
+    let branch = '-b v5.1.0 --depth=1';
 
     let clonedLocation;
     if (process.platform === 'win32') {
